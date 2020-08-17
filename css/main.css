@@ -1,0 +1,216 @@
+
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p, a {
+    font-family: 'Poppins', sans-serif;
+} 
+
+.btn {
+    white-space: nowrap;
+    border-radius: 0px;
+    padding: 8px 30px;
+}
+
+.btn-secondary {
+    padding: 8px 33px;
+    background-color: transparent;
+    color: #777;
+    border: 1px solid #ddd;
+    transition: border 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.nav-item.active {
+    font-weight: 500;
+}
+
+.nav-item.active::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: black;
+    margin: auto;
+    margin-top: -6px;
+}
+
+.edgy-pic {
+    padding: 0;
+}
+
+.img-fit {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+header {
+    background: linear-gradient(#eee, #eee);
+    background-position: right;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+
+#about {
+    margin-top: 150px;
+    padding: 40px 0;
+    background: linear-gradient(#eee, #eee);
+    background-position: left;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+
+#testimonial,
+#trending-product,
+#gallery,
+footer {
+    margin-top: 150px;
+}
+
+.testi-container {
+    background-image: url(../img/testimoni.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: left center;
+    padding: 150px 0;
+}
+
+.swiper-testi {
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-swipe {
+    margin: 0 50px;
+    padding: 55px 20px;
+    background-color: #fff;
+}
+
+.profile-reviewer img {
+    width: 100px;
+    height: 100%;
+}
+
+.card-product {
+    height: 400px;
+    width: 270px;
+}
+
+.swiper-product {
+    padding-bottom: 100px;
+}
+
+.gallery-item {
+    padding: 5px;
+}
+
+.side-gallery {
+    padding: 5px;
+}
+
+#trending-product {
+    background-image: linear-gradient(#007bff, #007bff);
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 30px 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li,
+footer ul li a {
+    list-style: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #ececec;
+}
+
+.search-box {
+    border-radius: 50px;
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px ;
+    background-color: white;
+}
+
+.search-box input {
+    width: 50%;
+    border: none !important;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+    margin: 0 !important;
+}
+
+.price {
+    margin-top: -15px;
+    font-size: 20px;
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .card-slide-product {
+        width: 270px !important;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    #trending-product {
+        background-image: none;
+    }
+}
+
+
+@media( max-width: 767.98px ){
+    .btn {
+        margin-top: 5px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-img img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .testi-container {
+        background-size: 400px
+    }
+}
+
+@media( max-width: 991.98px ){
+    .nav-item.active::after {
+        display: none;
+    }
+}
