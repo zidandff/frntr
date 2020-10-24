@@ -10,6 +10,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 		<!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+		<!-- AOS -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<!-- style -->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -61,11 +63,11 @@
 				<div class="container-fluid">
 					<div class="row mt-5">
 							
-						<div class="col-md-6 order-2 order-md-1 edgy-pic">
+						<div class="col-md-6 order-2 order-md-1 edgy-pic" data-aos="fade-right">
 							<img src="img/hero.jpg" class="img-fit" alt="">
 						</div>
 
-						<div class="col-md-5 align-self-center pl-4 order-1 order-md-2">
+						<div class="col-md-5 align-self-center pl-4 order-1 order-md-2" data-aos="fade-left">
 							<h1 class="font-weight-bold">Frntr the modern Furniture for your family</h1>
 							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex amet corporis vero iste enim? Veritatis perferendis facilis, rem quia ipsum odit in et. Cum et aperiam itaque voluptate asperiores sit!</p>
 							<a href="#" class="btn btn-primary mb-5">View More</a>
@@ -83,14 +85,14 @@
 				<div class="container-fluid">
 					<div class="row justify-content-end">
 
-						<div class="col-md-5 align-self-center">
+						<div class="col-md-5 align-self-center" data-aos="fade-right">
 							<p class="font-weight-bold text-primary">ABOUT US</p>
 							<h1 class="font-weight-bold">Best Agency Furniture Since 1980</h1>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta soluta consectetur autem exercitationem, harum cum esse ullam quas accusantium perspiciatis vel! Molestias officiis atque commodi assumenda, fugit nostrum alias quidem.</p>
 							<a href="#" class="btn btn-primary mb-5">Read Story</a>
 						</div>
 
-						<div class="col-md-6 edgy-pic">
+						<div class="col-md-6 edgy-pic" data-aos="fade-left">
 							<img src="img/about.jpg" class="img-fit" alt="">
 						</div>
 					</div>
@@ -99,10 +101,10 @@
 
 			<!-- Testimonial -->
 			<section id="testimonial">
-				<h1 class="text-center font-weight-bold">Testimonial</h1>
+				<h1 class="text-center font-weight-bold" data-aos="zoom-in" data-aos-mirror="false">Testimonial</h1>
 				
-				<div class="testi-container">
-					<div class="container">
+				<div class="testi-container" >
+					<div class="container" data-aos="zoom-in">
 						<div class="row justify-content-center">
 							<div class="col-lg-8">
 	
@@ -150,7 +152,6 @@
 													<p>"Man, this thing is getting better and better as I learn more about it. No matter where you go, design is the coolest, most happening thing around!"</p>
 												</div>
 											</div>
-											...
 									</div>
 									<!-- If we need pagination -->
 									<!-- <div class="swiper-pagination"></div> -->
@@ -170,9 +171,9 @@
 
 			<!-- trending product -->
 			<section id="trending-product">
-				<h1 class="text-center font-weight-bold">Trending Product</h1>
 				
-				<div class="container-fluid">
+				<div class="container-fluid" data-aos="fade-up" >
+					<h1 class="text-center font-weight-bold mb-5">Trending Product</h1>
 					<div class="row justify-content-center">
 						<div class="col-md-10">
 
@@ -261,10 +262,10 @@
 							<!-- first row -->
 							<div class="row">
 
-								<div class="col-md-8 gallery-item">
+								<div class="col-md-8 gallery-item" data-aos="zoom-in" data-aos-delay="" data-aos-anchor="section#gallery">
 									<img src="img/galery1.jpg" class="img-fit" alt="">
 								</div>
-								<div class="col-md-4 gallery-item">
+								<div class="col-md-4 gallery-item" data-aos="zoom-in" data-aos-delay="500" data-aos-anchor="section#gallery">
 									<img src="img/galery3.jpg" class="img-fit" alt="">
 								</div>
 
@@ -273,10 +274,10 @@
 							<!-- second row -->
 							<div class="row">
 
-								<div class="col-md-4 gallery-item">
+								<div class="col-md-4 gallery-item" data-aos="zoom-in" data-aos-delay="1000" data-aos-anchor="section#gallery">
 									<img src="img/galery5.jpg" class="img-fit" alt="">
 								</div>
-								<div class="col-md-8 gallery-item">
+								<div class="col-md-8 gallery-item" data-aos="zoom-in" data-aos-delay="1500" data-aos-anchor="section#gallery">
 									<img src="img/galery2.jpg" class="img-fit" alt="">
 								</div>
 
@@ -285,7 +286,7 @@
 
 						</div>
 						<!-- end multiple galery -->
-						<div class="col-md-4 side-gallery">
+						<div class="col-md-4 side-gallery" data-aos="zoom-in" data-aos-delay="2000" data-aos-anchor="section#gallery">
 							<img src="img/galery4.jpg" class="img-fit" alt="">
 						</div>
 					</div>
@@ -344,6 +345,8 @@
     <script src="js/jquery-3.4.1.min.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="js/aos.js"></script>
 		<script src="js/main.js"></script>
 </body>
 </html>
